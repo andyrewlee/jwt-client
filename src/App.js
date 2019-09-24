@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
+import LoginPage from './pages/LoginPage';
+import JoinPage from './pages/JoinPage';
+
 const LandingPage = () => <h1>Landing Page</h1>
-const LoginPage = () => <h1>Login Page</h1>
-const JoinPage = () => <h1>Join Page</h1>
 const SecretPage = () => <h1>Secret Page</h1>
 
 const App = () => {
